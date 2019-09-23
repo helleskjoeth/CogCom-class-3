@@ -1,6 +1,6 @@
 ---
 title: "Childes script"
-author: "Your name"
+author: "Helle"
 date: "29/8/2017"
 ---
 
@@ -122,7 +122,8 @@ HELP: https://r4ds.had.co.nz/transform.html#dplyr-basics
 
 ----Part 3: Cleaning strings
 ```{r}
-read.csv("sarah_data_2.csv", header = T)
+sarah_data_2 <- read.csv("sarah_data_2.csv", header = T)
+
 ```
 
 
